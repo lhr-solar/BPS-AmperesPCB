@@ -1573,6 +1573,7 @@
     )
   )
 
+
   (junction (at 104.14 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 064f80df-379a-4c9d-a36e-6b40aa72035c)
   )
@@ -3767,7 +3768,7 @@
   (symbol (lib_id "power:+3V0") (at 26.67 127 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b9d92b0-8428-4805-9477-5740edfff4d4)
-    (property "Reference" "#PWR?" (id 0) (at 22.86 127 0)
+    (property "Reference" "#PWR032" (id 0) (at 22.86 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (id 1) (at 29.21 127 90)
@@ -3785,7 +3786,7 @@
   (symbol (lib_id "power:GND") (at 99.06 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7de7a26a-114e-422d-9429-77b69385663e)
-    (property "Reference" "#PWR?" (id 0) (at 99.06 176.53 0)
+    (property "Reference" "#PWR033" (id 0) (at 99.06 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 99.06 175.26 0))
@@ -3836,7 +3837,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 44.45 50.8 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c952b33-0c09-4fab-81e5-1b1f9fc66e16)
-    (property "Reference" "D1" (id 0) (at 44.45 48.26 0))
+    (property "Reference" "D2" (id 0) (at 44.45 48.26 0))
     (property "Value" "D_Schottky" (id 1) (at 43.18 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3853,7 +3854,7 @@
   (symbol (lib_id "Device:D_Zener") (at 99.06 165.1 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd1dc2aa-26b2-4005-ad52-4557789d14b1)
-    (property "Reference" "D2" (id 0) (at 101.6 163.83 90)
+    (property "Reference" "D3" (id 0) (at 101.6 163.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.0V±0.05" (id 1) (at 101.6 166.3699 90)
@@ -3990,6 +3991,12 @@
     (path "/00000000-0000-0000-0000-0000618d69ea"
       (reference "#PWR031") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0b9d92b0-8428-4805-9477-5740edfff4d4"
+      (reference "#PWR032") (unit 1) (value "+3V0") (footprint "")
+    )
+    (path "/7de7a26a-114e-422d-9429-77b69385663e"
+      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060a29be4"
       (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3998,12 +4005,6 @@
     )
     (path "/00000000-0000-0000-0000-000060a357e8"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0b9d92b0-8428-4805-9477-5740edfff4d4"
-      (reference "#PWR?") (unit 1) (value "+3V0") (footprint "")
-    )
-    (path "/7de7a26a-114e-422d-9429-77b69385663e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f15a6ad"
       (reference "C1") (unit 1) (value "10u") (footprint "UTSVT_Passive:C_2220_5750Metrix")
@@ -4051,10 +4052,10 @@
       (reference "D1") (unit 1) (value "PowerOn") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/9c952b33-0c09-4fab-81e5-1b1f9fc66e16"
-      (reference "D1") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D2") (unit 1) (value "D_Schottky") (footprint "")
     )
     (path "/bd1dc2aa-26b2-4005-ad52-4557789d14b1"
-      (reference "D2") (unit 1) (value "3.0V±0.05") (footprint "")
+      (reference "D3") (unit 1) (value "3.0V±0.05") (footprint "")
     )
     (path "/bf76527b-196d-42a6-85c7-d245cc10ccb8"
       (reference "FB1") (unit 1) (value "FerriteBead_Small") (footprint "")
