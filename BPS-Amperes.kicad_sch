@@ -5,6 +5,214 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "+1V5_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+1V5_1" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+1V5\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+1V5_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+1V5_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+1V5" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V0_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V0_1" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V0\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V0_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V0_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V0" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V0_2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V0_2" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V0\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V0_2_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V0_2_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V0" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V0_3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V0_3" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V0\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V0_3_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V0_3_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V0" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Amplifier_Operational:OPA2196xD" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 2.54 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -654,7 +862,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"+1V5\"" (at 0 0 0)
@@ -758,7 +966,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"+3V0\"" (at 0 0 0)
@@ -1075,7 +1283,7 @@
       )
       (symbol "INA186A3QDBVRQ1_0_1"
         (rectangle (start 6.35 -6.35) (end -6.35 3.81)
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type background))
         )
       )
@@ -1129,7 +1337,7 @@
       )
       (symbol "LTC2315_0_1"
         (rectangle (start -3.81 5.08) (end 8.89 -5.08)
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type background))
         )
       )
@@ -1183,7 +1391,7 @@
       )
       (symbol "REF1930AIDDCT_0_1"
         (rectangle (start 6.35 2.54) (end -6.35 -10.16)
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type background))
         )
       )
@@ -1306,7 +1514,18 @@
     (uuid ff49ef52-32b8-4fb6-b8b7-7699839452b2)
   )
 
+  (no_connect (at 238.125 30.48) (uuid 0ced5c25-a176-41e0-96d8-691618a783c3))
+  (no_connect (at 238.76 27.94) (uuid 14366fe7-483d-4cf1-98a9-c6b1c5d902c0))
+  (no_connect (at 238.76 25.4) (uuid 2730ef62-8b07-47b1-9ebd-f6e5d81dc0f8))
+  (no_connect (at 256.54 30.48) (uuid 43f70344-745f-453c-9c31-38ea17524b65))
   (no_connect (at 34.925 38.1) (uuid 6d5680f6-e781-4459-911a-730ebdd3895c))
+  (no_connect (at 257.81 48.26) (uuid 7197d990-972a-4656-a362-4b84a944adea))
+  (no_connect (at 257.81 40.64) (uuid 722118ec-e75e-4fe7-a0c6-64382d190023))
+  (no_connect (at 256.54 33.02) (uuid 9fa97ae9-3d28-4582-b53f-ecc80227f91c))
+  (no_connect (at 238.125 33.02) (uuid ae027206-31fc-445c-addc-faee6692bb28))
+  (no_connect (at 257.81 43.18) (uuid cabc17cc-4d21-43d8-aa3b-61616d556554))
+  (no_connect (at 257.81 45.72) (uuid f0caa55f-2ddc-4302-941a-cefeacf16b22))
+  (no_connect (at 239.395 45.72) (uuid fc9f0205-2b38-46c2-bce0-acbc508214c9))
 
   (wire (pts (xy 115.57 153.035) (xy 107.95 153.035))
     (stroke (width 0) (type default))
@@ -2159,7 +2378,7 @@
     )
   )
 
-  (symbol (lib_id "power:+3V0") (at 28.575 69.85 0) (unit 1)
+  (symbol (lib_name "+3V0_2") (lib_id "power:+3V0") (at 28.575 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 085eb9b5-4082-4f57-949f-a3a6cde3ae93)
     (property "Reference" "#PWR09" (at 28.575 73.66 0)
@@ -2696,7 +2915,7 @@
     )
   )
 
-  (symbol (lib_id "power:+3V0") (at 133.985 68.58 0) (unit 1)
+  (symbol (lib_name "+3V0_3") (lib_id "power:+3V0") (at 133.985 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45e0ebf5-ae45-40a9-ac68-e59b3eec8e96)
     (property "Reference" "#PWR017" (at 133.985 72.39 0)
@@ -2741,7 +2960,7 @@
     (property "Datasheet" "" (at 33.655 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6667d699-f478-4bf1-9184-a0554d2aae95))
+    (pin "1" (uuid a8a7e03d-4a55-4c6d-8144-7158433ac0a2))
     (instances
       (project "BPS-Amperes"
         (path "/637f68f0-cb9c-412a-8573-5d8e7ef6d8a2"
@@ -3095,7 +3314,7 @@
     )
   )
 
-  (symbol (lib_id "power:+3V0") (at 107.95 137.795 0) (unit 1)
+  (symbol (lib_name "+3V0_1") (lib_id "power:+3V0") (at 107.95 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7147bb7e-2e9d-44c2-a9b3-f563f9b9dbec)
     (property "Reference" "#PWR026" (at 107.95 141.605 0)
@@ -3193,7 +3412,7 @@
     )
   )
 
-  (symbol (lib_id "power:+1V5") (at 90.17 137.795 0) (unit 1)
+  (symbol (lib_name "+1V5_1") (lib_id "power:+1V5") (at 90.17 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 791365e1-bb6e-43a4-95a1-5fe73d5c5765)
     (property "Reference" "#PWR024" (at 90.17 141.605 0)
@@ -3208,7 +3427,7 @@
     (property "Datasheet" "" (at 90.17 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3eb1c2e-f6af-476e-be94-601f208f924d))
+    (pin "1" (uuid ac337b58-920e-4d5f-b5ef-ec011856a38c))
     (instances
       (project "BPS-Amperes"
         (path "/637f68f0-cb9c-412a-8573-5d8e7ef6d8a2"
