@@ -2831,6 +2831,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 127.635 40.005 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1b6a7a3a-e9ab-482c-8d01-31cacdf55d62)
+    (property "Reference" "MH4" (at 130.175 38.8366 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M.3" (at 130.175 41.148 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 127.635 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127.635 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BPS-Amperes"
+        (path "/637f68f0-cb9c-412a-8573-5d8e7ef6d8a2"
+          (reference "MH4") (unit 1)
+        )
+      )
+      (project "BPS-Leader"
+        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "MH2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:PWR_FLAG") (at 280.035 35.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b917d27-f044-47ed-9b5b-7636b4f8c347)
@@ -4292,6 +4326,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 117.475 40.005 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b4667995-cc67-4613-a55e-5fe132dcdafb)
+    (property "Reference" "MH3" (at 120.015 38.8366 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M.3" (at 120.015 41.148 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 117.475 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 117.475 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BPS-Amperes"
+        (path "/637f68f0-cb9c-412a-8573-5d8e7ef6d8a2"
+          (reference "MH3") (unit 1)
+        )
+      )
+      (project "BPS-Leader"
+        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "MH1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 69.215 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbeeb17d-6347-49b6-bce1-5e07129b3778)
@@ -4387,7 +4455,7 @@
     (property "Reference" "J3" (at 115.57 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestShuntConn" (at 115.57 19.05 0)
+    (property "Value" "PassthroughConn" (at 115.57 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 115.57 29.21 0)
