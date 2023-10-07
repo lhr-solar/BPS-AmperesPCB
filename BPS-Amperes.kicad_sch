@@ -3095,8 +3095,8 @@
     (property "Mfg" "C0805C105K5PACTU" (at 90.805 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c744f59f-8028-4290-add2-3d6c058307c6))
-    (pin "2" (uuid d90b3b77-7603-417c-aeeb-7bc9f508fd4c))
+    (pin "1" (uuid f0f98169-b426-486e-b4ad-42953a5a0d9d))
+    (pin "2" (uuid 4ea63838-1430-41ff-a543-7ea4ae331a78))
     (instances
       (project "BPS-Amperes"
         (path "/637f68f0-cb9c-412a-8573-5d8e7ef6d8a2"
