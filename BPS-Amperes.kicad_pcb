@@ -460,7 +460,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tstamp 3a354629-e809-49d2-b142-acaec1cbe291)
-    (at 164.54 99.6625 -90)
+    (at 164 99.6625 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Mfg" "UMK212ABJ225KG-T")
@@ -825,7 +825,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (layer "B.Cu")
     (tstamp 4f211541-7543-4c04-8945-a99aeadd00d5)
-    (at 134.175 100.1625 180)
+    (at 132.537179 99.138763 180)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (property "Sheetfile" "BPS-Amperes.kicad_sch")
@@ -1125,7 +1125,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tstamp 62f04b42-b626-4571-9f0e-e0dff8b2d6b4)
-    (at 161.54 99.6625 -90)
+    (at 161 99.6625 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Mfg" "UMK212ABJ225KG-T")
@@ -6222,7 +6222,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "B.Cu")
     (tstamp ba7a6b5c-6c59-4835-97c8-dc3267e41ca4)
-    (at 156.7975 97.775 90)
+    (at 156 97.775 90)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Mfg" "OPA2196ID")
@@ -6800,7 +6800,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (layer "B.Cu")
     (tstamp f2a11bf8-c115-4fcc-91ec-29de9b20e049)
-    (at 169.15 100.1625 180)
+    (at 167.512179 99.138763 180)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (property "Sheetfile" "BPS-Amperes.kicad_sch")
@@ -7196,10 +7196,10 @@
     (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
   (dimension (type orthogonal) (layer "Dwgs.User") (tstamp 8651ce57-71b2-4de4-9b17-45aad0a498f5)
-    (pts (xy 134.175 100.1625) (xy 169.1502 100.2107))
+    (pts (xy 132.537179 99.138763) (xy 167.512379 99.186963))
     (height -13.0328)
     (orientation 0)
-    (gr_text "34.9752 mm" (at 151.6626 85.9797) (layer "Dwgs.User") (tstamp 8651ce57-71b2-4de4-9b17-45aad0a498f5)
+    (gr_text "34.9752 mm" (at 150.024779 84.955963) (layer "Dwgs.User") (tstamp 8651ce57-71b2-4de4-9b17-45aad0a498f5)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
