@@ -13,6 +13,9 @@ Sandwiched in between the BPS Peripheral SOM (Above) and Shunt Resistor (Below)
 + J5 - 2.54mm 1x2 Pin Header (THT on back)
 + TP1 - 2.54mm 1x1 Pin Header (THT on back)
 
+# LEDs
++ Green LED on the bottom = Power LED
+
 ## Components
 TO BE UPDATED: [Mouser cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2bc1527826) for the components that cannot be sampled/already in inventory.
 
