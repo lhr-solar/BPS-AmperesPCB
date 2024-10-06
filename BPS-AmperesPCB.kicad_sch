@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a452d214-ea00-440d-a445-5d6103fda43a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 215.9 40.64) (size 12.7 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 68e70362-8495-4fec-ab6e-0f892227cb37)
+    (property "Sheetname" "INA226" (at 215.9 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ina226.kicad_sch" (at 215.9 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Vs" input (at 215.9 43.18 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 888be1fa-df29-4525-a069-ab5c54cdffca)
+    )
+    (pin "SCL" input (at 215.9 45.72 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 15a601d5-ba78-44c0-acf7-3a2471fa6ea7)
+    )
+    (pin "SDA" input (at 215.9 48.26 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a835aac1-99e3-48b4-becd-e78d5784922a)
+    )
+    (instances
+      (project "BPS-AmperesPCB"
+        (path "/a452d214-ea00-440d-a445-5d6103fda43a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 215.9 59.69) (size 12.7 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dd7952ef-1191-40a9-aa5b-d92e8ecee6c0)
+    (property "Sheetname" "INA293" (at 215.9 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ina293.kicad_sch" (at 215.9 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BPS-AmperesPCB"
+        (path "/a452d214-ea00-440d-a445-5d6103fda43a" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
