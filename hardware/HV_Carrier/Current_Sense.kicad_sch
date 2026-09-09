@@ -49620,7 +49620,7 @@
 		)
 		(uuid "dc5f3003-88fb-4f01-93b8-5db2928ed69c")
 	)
-	(text "Discharge: \nVin+ = Vin- + V_bench = 1.65V + V_bench\nScurt_Vout = Vin- + (Vin+ − Vin-) × R2/(R1+R2)\n           = 1.65V + V_bench × (1k/10k)\n           = 1.65V + 0.1 × V_bench\nFor 70A: 0.1 × V_bench = 0.875V\nV_bench = 8.75V"
+	(text "Discharge: \nVin+ = Vin- + V_bench = 1.65V + V_bench\nScurt_Vout = Vin- + (Vin+ − Vin-) × R2/(R1+R2)\n           = 1.65V + V_bench × (10k/100k)\n           = 1.65V + 0.1 × V_bench\nFor 70A: 0.1 × V_bench = 0.875V\nV_bench = 8.75V"
 		(exclude_from_sim no)
 		(at 181.102 173.99 0)
 		(effects
@@ -56813,7 +56813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "032d2de0-fbbf-490a-a2d0-116e5a11a6d6")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 77.47 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56886,7 +56886,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -56904,7 +56904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e0e68f5-a8d5-4224-8dcc-e31f8f07ce4a")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 171.45 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56977,7 +56977,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -57085,7 +57085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1556751a-8caf-42ab-a783-bdf1179fc38e")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 154.686 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57158,7 +57158,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -57177,7 +57177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eeb5ff8-9bfd-43c4-a895-acc92e5ab613")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 93.98 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57252,7 +57252,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -58204,7 +58204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Scurt Vin+"
+		(property "Value" "Scrut Vin+"
 			(at 179.578 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58272,7 +58272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ea865d4-2ac1-40b2-bf1c-8285983660e4")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 171.45 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58345,7 +58345,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -58455,7 +58455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Scurt Vout"
+		(property "Value" "Scrut Vout"
 			(at 185.42 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58523,7 +58523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719fe96f-eacd-4d7b-8a0a-577b76ff7721")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 226.06 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58587,7 +58587,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -58606,7 +58606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ffa78e-a775-4b14-b28d-917ac7de5cea")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 93.98 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58681,7 +58681,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -58780,7 +58780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd7a36e-dac6-47b0-89d9-e3496629a00c")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 89.916 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58855,7 +58855,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -59180,7 +59180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Scurt Vin-"
+		(property "Value" "Scrut Vin-"
 			(at 192.024 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59422,7 +59422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad0c75d5-d066-4f58-957d-a348af4c6412")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 171.45 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59495,7 +59495,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -59964,7 +59964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bef77d19-7acb-4403-8e7c-3553e9fe495d")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 189.23 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60037,7 +60037,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -60549,7 +60549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecb73f5f-2bf2-404a-bc97-1f937d924d7d")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 182.88 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60622,7 +60622,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -60740,7 +60740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef316b3f-c80d-4c81-bcff-af61be04d9bb")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 77.47 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60813,7 +60813,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -60910,7 +60910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66ffcd3-69a9-47d9-bb84-31af7ed26d91")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 226.06 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60974,7 +60974,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -60992,7 +60992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f934f047-5d45-4f1a-9ef3-a7da9521c29f")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 154.94 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61065,7 +61065,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -61084,7 +61084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe9e6792-2da3-4987-94e8-72f6a7aa4579")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 77.47 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61157,7 +61157,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/c64f1e33-0c51-411c-bbbf-0af7b620c655"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)

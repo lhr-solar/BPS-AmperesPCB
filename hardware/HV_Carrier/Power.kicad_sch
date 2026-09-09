@@ -128,6 +128,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 19.05 77.724)
@@ -183,6 +323,18 @@
 		(color 0 0 0 0)
 		(uuid "b8f6898f-8e21-406c-b134-8f5683b7b15e")
 	)
+	(junction
+		(at 36.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba375093-42ac-4a5c-a8a9-a7fb145f1a54")
+	)
+	(junction
+		(at 111.76 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7891422-93cc-4fcf-b654-8ca04f9f3069")
+	)
 	(wire
 		(pts
 			(xy 78.74 120.65) (xy 83.82 120.65)
@@ -215,7 +367,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 48.26) (xy 39.37 48.26)
+			(xy 34.29 48.26) (xy 36.83 48.26)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +377,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 48.26) (xy 130.81 48.26)
+			(xy 115.57 48.26) (xy 132.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -242,6 +394,16 @@
 			(type default)
 		)
 		(uuid "332162df-ded4-49bf-842e-65d36d3d9d08")
+	)
+	(wire
+		(pts
+			(xy 78.74 27.94) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3325061e-a5e5-411d-9a52-5f337454a5e2")
 	)
 	(wire
 		(pts
@@ -285,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 115.57 48.26)
+			(xy 109.22 48.26) (xy 111.76 48.26)
 		)
 		(stroke
 			(width 0)
@@ -305,6 +467,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 48.26) (xy 36.83 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7218dd38-74e0-433a-a5f1-a0dc8e6111a4")
+	)
+	(wire
+		(pts
 			(xy 203.2 49.53) (xy 213.36 49.53)
 		)
 		(stroke
@@ -312,6 +484,16 @@
 			(type default)
 		)
 		(uuid "7911fdaa-f83b-4344-af73-23fa005b5556")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06f2422-8e1d-45d1-a378-eb2c661e87c5")
 	)
 	(wire
 		(pts
@@ -332,6 +514,16 @@
 			(type default)
 		)
 		(uuid "ba169bca-15bc-4e3e-af86-9d5a1e858cca")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6690a94-33c6-40b4-bce6-126eb2cb036e")
 	)
 	(wire
 		(pts
@@ -375,6 +567,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 27.94) (xy 71.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c34978-cf43-4b8c-86c6-ee75e6e22486")
+	)
+	(wire
+		(pts
 			(xy 78.74 104.14) (xy 113.03 104.14)
 		)
 		(stroke
@@ -392,6 +594,16 @@
 			(type default)
 		)
 		(uuid "e603e044-1d1a-4c43-aa10-be86f1a3f19b")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88b814e-c03c-45d9-92a7-83c8116a9c54")
 	)
 	(wire
 		(pts
@@ -716,6 +928,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 74.93 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d64fdf5a-b872-4c38-88d2-c299e3846c84")
+		(property "Reference" "R34"
+			(at 74.93 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 74.93 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.93 29.718 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 74.93 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 74.93 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9233bbf-7803-47cf-8183-0c12364439c6")
+		)
+		(pin "1"
+			(uuid "16a53c26-ba85-4a75-8622-2e9ab4b90a01")
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/904fa10a-747c-46cf-90d1-33d76069dc5d"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 83.82 111.76 0)
 		(mirror y)
@@ -791,82 +1105,6 @@
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/904fa10a-747c-46cf-90d1-33d76069dc5d"
 					(reference "TP7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 130.81 36.83)
-		(size 45.72 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "3d5e6349-9b57-4f3d-adb1-46bcc69fbb65")
-		(property "Sheetname" "12VBuck"
-			(at 130.81 36.1184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "12VBuck.kicad_sch"
-			(at 130.81 62.3066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" bidirectional
-			(at 161.29 62.23 270)
-			(uuid "6db7985f-9633-4d0d-81e3-844ddf2e88f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_in_12V" input
-			(at 130.81 48.26 180)
-			(uuid "f3c82ec3-3631-4426-b327-daf388f00f68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_out_5V" output
-			(at 176.53 48.26 0)
-			(uuid "f5b40127-578b-4171-954b-845699488dbf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PS-HVCarrier"
-				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/904fa10a-747c-46cf-90d1-33d76069dc5d"
-					(page "18")
 				)
 			)
 		)
@@ -1167,6 +1405,82 @@
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/904fa10a-747c-46cf-90d1-33d76069dc5d"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 31.75)
+		(size 44.45 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c2b7497c-dc59-4d5a-b160-c35e8bc1c10f")
+		(property "Sheetname" "12VBuck"
+			(at 132.08 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12VBuck.kicad_sch"
+			(at 132.08 62.0526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 161.29 62.23 270)
+			(uuid "1cec1157-80e8-4658-ade8-d44e4c562521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_in_12V" input
+			(at 132.08 48.26 180)
+			(uuid "03c2e491-e526-47e2-84aa-3862d7c20c61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out_5V" output
+			(at 176.53 48.26 0)
+			(uuid "cc564bf0-6f84-42ac-8770-dddf2d0c5189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/904fa10a-747c-46cf-90d1-33d76069dc5d"
+					(page "18")
 				)
 			)
 		)
