@@ -130,6 +130,12 @@
 		)
 	)
 	(junction
+		(at 226.06 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e54c1c0-bd23-49e8-be86-c330a7362b02")
+	)
+	(junction
 		(at 153.67 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -164,6 +170,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e92d996-36cd-44c8-9f56-c93b00414e21")
+	)
+	(junction
+		(at 227.33 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51279fa1-a5a0-4eec-9d80-44d0d537ddbe")
 	)
 	(junction
 		(at 74.93 66.04)
@@ -202,10 +214,22 @@
 		(uuid "8d94f04e-2c55-4564-bb20-e6bbcd619347")
 	)
 	(junction
+		(at 225.9697 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6debce-6ca0-4a41-a86e-a6a5092beb37")
+	)
+	(junction
 		(at 151.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ed5e20-7879-4f7e-976c-6d64f36afd0b")
+	)
+	(junction
+		(at 227.33 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa169224-0985-410a-a02b-a7bedcec5fdc")
 	)
 	(junction
 		(at 151.13 106.68)
@@ -228,6 +252,16 @@
 			(type default)
 		)
 		(uuid "019fdc71-8f96-4d1e-af20-f26af81a72d7")
+	)
+	(wire
+		(pts
+			(xy 225.9697 62.23) (xy 220.98 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aabc31b-43e6-48bf-ab47-cdc6d50a482c")
 	)
 	(wire
 		(pts
@@ -278,6 +312,16 @@
 			(type default)
 		)
 		(uuid "22118eff-a097-403d-b639-a27089711955")
+	)
+	(wire
+		(pts
+			(xy 227.33 119.38) (xy 222.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22213f79-513c-4271-b53a-1fa1e767066f")
 	)
 	(wire
 		(pts
@@ -431,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 49.53) (xy 223.52 49.53)
+			(xy 220.98 49.53) (xy 226.06 49.53)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 119.38) (xy 222.25 119.38)
+			(xy 231.14 119.38) (xy 227.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -538,6 +582,16 @@
 			(type default)
 		)
 		(uuid "932de927-1d81-4064-b181-28d9013ab9ad")
+	)
+	(wire
+		(pts
+			(xy 227.33 106.68) (xy 222.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a7507a-ab02-4b02-8eb0-da7872efa34e")
 	)
 	(wire
 		(pts
@@ -641,7 +695,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 62.23) (xy 220.98 62.23)
+			(xy 226.06 49.53) (xy 229.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55b4c18-53e8-4b9f-b7e4-9aa8d5f69a6c")
+	)
+	(wire
+		(pts
+			(xy 229.87 62.23) (xy 225.9697 62.23)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 106.68) (xy 222.25 106.68)
+			(xy 231.14 106.68) (xy 227.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1037,7 +1101,7 @@
 	)
 	(hierarchical_label "MOTOR+_ADC"
 		(shape output)
-		(at 223.52 49.53 0)
+		(at 231.14 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1180,7 +1244,7 @@
 	)
 	(hierarchical_label "HV+_ADC"
 		(shape output)
-		(at 223.52 62.23 0)
+		(at 229.87 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1224,7 +1288,7 @@
 	)
 	(hierarchical_label "MOTOR-_ADC"
 		(shape output)
-		(at 226.06 119.38 0)
+		(at 231.14 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1332,7 @@
 	)
 	(hierarchical_label "HV-_ADC"
 		(shape output)
-		(at 226.06 106.68 0)
+		(at 229.87 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,6 +1416,86 @@
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cfd622c-d667-46aa-968a-9b177b70a863")
+		(property "Reference" "TP?"
+			(at 224.79 102.1079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR+ ADC"
+			(at 238.506 100.584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 222.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba1af77e-7d3f-4fc8-b84c-ae2d8abc7cf0")
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -1999,6 +2143,86 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 226.06 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97893ba9-3ac4-4624-947f-872c8bd8c50a")
+		(property "Reference" "TP?"
+			(at 223.52 44.9579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HV+ ADC"
+			(at 231.14 43.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 220.98 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ca654ad-906e-4324-a8d7-34adb5c2510c")
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 110.49 64.77 0)
 		(mirror y)
 		(unit 1)
@@ -2239,6 +2463,86 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 227.33 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad80bd8e-d6bb-490e-bb02-4ec237f1c764")
+		(property "Reference" "TP?"
+			(at 224.79 114.8079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR- ADC"
+			(at 238.506 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b34351ed-1ea6-4846-8842-347760c0e9e2")
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 151.13 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -2472,6 +2776,86 @@
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
 					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 225.9697 62.23 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f604c621-5b55-4542-829d-96785d681e94")
+		(property "Reference" "TP?"
+			(at 223.4297 57.6579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HV- ADC"
+			(at 231.0497 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 220.8897 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.8897 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 225.9697 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a36e81d-cd51-4181-8a58-b5434d4992f9")
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
