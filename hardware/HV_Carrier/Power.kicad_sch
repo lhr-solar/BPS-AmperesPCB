@@ -635,7 +635,7 @@
 		)
 		(uuid "c1633d25-4067-4b1b-a4a4-545c278b01e4")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 83.82 125.73 0)
 		(effects
@@ -668,7 +668,7 @@
 		)
 		(uuid "4d35d781-d02d-4f71-9aa2-0614d37a7311")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 83.82 120.65 0)
 		(effects
@@ -1209,7 +1209,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_D-" bidirectional
 			(at 78.74 120.65 0)
 			(uuid "5f161dba-105a-4ca8-8566-fd9c69616a7d")
 			(effects
@@ -1219,7 +1219,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_D+" bidirectional
 			(at 78.74 125.73 0)
 			(uuid "e36ba121-0c08-4d7b-b561-b442a736a01f")
 			(effects

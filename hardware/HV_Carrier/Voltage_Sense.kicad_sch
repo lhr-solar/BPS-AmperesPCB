@@ -220,6 +220,12 @@
 		(uuid "8e6debce-6ca0-4a41-a86e-a6a5092beb37")
 	)
 	(junction
+		(at 107.95 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9adb8038-ae14-45c2-9e60-cff8ab2dadf7")
+	)
+	(junction
 		(at 151.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -675,13 +681,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 111.76 105.41)
+			(xy 105.41 105.41) (xy 107.95 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7b771c7-af50-4767-8201-e84ee4cf457b")
+	)
+	(wire
+		(pts
+			(xy 107.95 105.41) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4f1f0c-1aac-4d72-83a5-08fa4021895a")
 	)
 	(wire
 		(pts
@@ -1433,7 +1449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cfd622c-d667-46aa-968a-9b177b70a863")
-		(property "Reference" "TP?"
+		(property "Reference" "TP37"
 			(at 224.79 102.1079 0)
 			(hide yes)
 			(show_name no)
@@ -1445,7 +1461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOTOR+ ADC"
+		(property "Value" "Motor+ ADC"
 			(at 238.506 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1495,7 +1511,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP?")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -1513,7 +1529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c1a4ca2-95af-43bd-8a3e-3ff1f56cff1d")
-		(property "Reference" "TP32"
+		(property "Reference" "TP33"
 			(at 151.13 51.3079 0)
 			(hide yes)
 			(show_name no)
@@ -1575,7 +1591,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP32")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -1753,7 +1769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bfd915e-f7e7-4075-b2c0-aab5bfdc098b")
-		(property "Reference" "TP31"
+		(property "Reference" "TP32"
 			(at 148.59 102.1079 0)
 			(hide yes)
 			(show_name no)
@@ -1815,7 +1831,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP31")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -1833,7 +1849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67ee3216-1801-4957-b3d8-a76b2f7db79f")
-		(property "Reference" "TP33"
+		(property "Reference" "TP34"
 			(at 151.13 91.9479 0)
 			(hide yes)
 			(show_name no)
@@ -1895,7 +1911,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP33")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOTOR+ DIAG"
+		(property "Value" "Motor+ DIAG"
 			(at 89.408 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,7 +2009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d638884-4584-4b6e-879b-824363f40d6e")
-		(property "Reference" "TP29"
+		(property "Reference" "TP30"
 			(at 148.59 61.4679 0)
 			(hide yes)
 			(show_name no)
@@ -2055,7 +2071,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP29")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -2153,7 +2169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97893ba9-3ac4-4624-947f-872c8bd8c50a")
-		(property "Reference" "TP?"
+		(property "Reference" "TP36"
 			(at 223.52 44.9579 0)
 			(hide yes)
 			(show_name no)
@@ -2215,7 +2231,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP?")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d51345a-bbee-480b-a047-3f49582d69db")
-		(property "Reference" "TP27"
+		(property "Reference" "TP28"
 			(at 107.95 60.1979 0)
 			(hide yes)
 			(show_name no)
@@ -2295,7 +2311,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP27")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad80bd8e-d6bb-490e-bb02-4ec237f1c764")
-		(property "Reference" "TP?"
+		(property "Reference" "TP38"
 			(at 224.79 114.8079 0)
 			(hide yes)
 			(show_name no)
@@ -2485,7 +2501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOTOR- ADC"
+		(property "Value" "Motor- ADC"
 			(at 238.506 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2551,87 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP?")
+					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afb11c15-68ee-4b73-b0d1-411bfb02d17e")
+		(property "Reference" "TP27"
+			(at 105.41 100.8379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor- IN"
+			(at 106.426 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 102.87 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "610b733d-b9c4-4804-b89b-655994729b55")
+		)
+		(instances
+			(project "PS-HVCarrier"
+				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8576578-f18e-4999-939f-1793d56e72ca")
-		(property "Reference" "TP28"
+		(property "Reference" "TP29"
 			(at 148.59 56.3879 0)
 			(hide yes)
 			(show_name no)
@@ -2615,7 +2711,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP28")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -2713,7 +2809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce4ee4df-9a4f-412e-b06c-64571075f355")
-		(property "Reference" "TP30"
+		(property "Reference" "TP31"
 			(at 148.59 97.0279 0)
 			(hide yes)
 			(show_name no)
@@ -2775,7 +2871,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP30")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -2793,7 +2889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f604c621-5b55-4542-829d-96785d681e94")
-		(property "Reference" "TP?"
+		(property "Reference" "TP35"
 			(at 223.4297 57.6579 0)
 			(hide yes)
 			(show_name no)
@@ -2855,7 +2951,7 @@
 		(instances
 			(project "PS-HVCarrier"
 				(path "/2365a867-6254-4a7c-9718-f325e0bbac5c/83ab5b0b-4732-42c0-82fe-e74f4113c82a"
-					(reference "TP?")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
