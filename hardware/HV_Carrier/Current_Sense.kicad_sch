@@ -59896,7 +59896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHUNT_OUTP"
+		(property "Value" "SHUNT_UREF"
 			(at 167.894 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
