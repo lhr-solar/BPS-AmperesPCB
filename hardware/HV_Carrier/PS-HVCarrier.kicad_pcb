@@ -19355,24 +19355,25 @@
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J12"
-			(at 0 -2.92 0)
+			(at -3.68 5.049357 0)
 			(layer "F.SilkS")
-			(uuid "ea47f826-514e-49bd-a4f3-5913fd6c171e")
+			(uuid "865ff893-a67a-4192-9ce1-f7012d638907")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "Discharge Vin"
-			(at 3.17 1.2 90)
+			(at -0.68 -2.800643 180)
 			(layer "F.SilkS")
-			(uuid "b28eb36c-af4a-4a9b-aa10-29550883d087")
+			(uuid "2fb18393-a9b5-412a-94f6-ea9cfadf3dda")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
@@ -19381,7 +19382,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d5a6b1d-9dea-45ee-a519-e5690f0b5f2f")
+			(uuid "83bdda0b-2a8d-407a-88cd-15d56675eea8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19394,7 +19395,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8829205c-a30f-46ea-a821-535d207de10a")
+			(uuid "71df645d-420d-4a9b-afd7-1e16c8aa1ac0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23415,24 +23416,26 @@
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J13"
-			(at 0 -2.92 0)
+			(at -3.78 -2.700643 0)
 			(layer "F.SilkS")
 			(uuid "729598f3-2c06-43c3-a73d-dcbadf44e743")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
 		(property "Value" "Charge Vin"
-			(at 3.07 1.199357 90)
+			(at 0.47 -2.900643 180)
 			(layer "F.SilkS")
 			(uuid "1ccf31a2-1a94-4817-b4c8-d65c22ac1da5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
@@ -35813,7 +35816,7 @@
 			)
 		)
 		(property "Value" "Motor- ADC"
-			(at -0.2 2.7 0)
+			(at 0.05 2.7 0)
 			(layer "F.SilkS")
 			(uuid "553233bf-60ca-4477-b00b-51911a2b3208")
 			(effects
@@ -37855,7 +37858,7 @@
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx03, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit vertical")
 		(property "Reference" "J1"
-			(at 0 -2.92 0)
+			(at -3.075 -1.400643 0)
 			(layer "F.SilkS")
 			(uuid "ec065efe-dc58-4ca5-871e-7bdc8c7fc771")
 			(effects
@@ -37866,13 +37869,14 @@
 			)
 		)
 		(property "Value" "Shunt Breakout"
-			(at 3.35 2.55 90)
+			(at -0.125 -2.850643 180)
 			(layer "F.SilkS")
 			(uuid "710e698a-c320-4ff7-902b-f59e59abb23c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
+					(bold yes)
 				)
 			)
 		)
@@ -56177,7 +56181,7 @@
 		(uuid "ef7969ac-3591-4f2c-800a-f117db679a60")
 		(at 175.815 77.970643)
 		(property "Reference" "J10"
-			(at 0.1 -5.65 0)
+			(at -3.365 -4.220643 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a3074740-e818-4c51-aab9-973d3af19f63")
@@ -56189,7 +56193,7 @@
 			)
 		)
 		(property "Value" "Shunt Conn"
-			(at 3.46 0.53 90)
+			(at -0.015 -5.920643 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0bd0f71b-a563-4273-87ab-17ab6d5f8e06")
@@ -63413,7 +63417,7 @@
 	)
 	(gr_rect
 		(start 171.6 99.5)
-		(end 179.17 119.900643)
+		(end 181.6 119.900643)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -63693,6 +63697,127 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 179.35 77.35 0)
+		(layer "F.SilkS")
+		(uuid "5dc9a373-1992-4684-bb09-8d6600809937")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Out+"
+		(at 179.6 79.75 0)
+		(layer "F.SilkS")
+		(uuid "120652de-b00f-47fb-b358-8dee39a25d98")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Out-"
+		(at 179.6 82.45 0)
+		(layer "F.SilkS")
+		(uuid "20aa4c8e-4aba-485d-840f-d9cbc752abac")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "+3v3"
+		(at 179.7 74.95 0)
+		(layer "F.SilkS")
+		(uuid "b2d64594-9ec5-4659-82b4-2716c47d0c1a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 180.05 90.45 0)
+		(layer "F.SilkS")
+		(uuid "e42dfa7f-b155-4acb-932b-6e7029763376")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "UREF"
+		(at 180.05 93.1 0)
+		(layer "F.SilkS")
+		(uuid "9889739f-6513-4592-a11e-3313d3364085")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "UOUT"
+		(at 180.1 95.7 0)
+		(layer "F.SilkS")
+		(uuid "5ac050f6-5cfe-4a09-95d4-6eab1f76e88e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Vin-"
+		(at 180.15 103.35 0)
+		(layer "F.SilkS")
+		(uuid "30c5ef9d-93ba-46df-93e1-6f7523f47a45")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Vin+"
+		(at 180.15 106.25 0)
+		(layer "F.SilkS")
+		(uuid "f9e6f5c4-2dfc-4bb5-b1cb-13dcc6bb1492")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Vin-"
+		(at 180.2 116.35 0)
+		(layer "F.SilkS")
+		(uuid "e81b942b-0870-4ede-9e7a-ccbaa7fdf5e9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Vin+"
+		(at 180.3 113.7 0)
+		(layer "F.SilkS")
+		(uuid "bb9e9598-78f3-44fe-ae05-44d635f96cd6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "GND"
