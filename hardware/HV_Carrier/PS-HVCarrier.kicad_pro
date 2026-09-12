@@ -569,7 +569,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gebers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
